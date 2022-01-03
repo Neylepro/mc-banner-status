@@ -23,7 +23,7 @@ getMC.onreadystatechange = function() {
 // --- Functions --- //
 function loadMCBanner(){ //send request and kickstart the rest of the banner
     document.getElementById('mc-banner').innerHTML = '<center><div class="lds-ellipsis white"><div></div><div></div><div></div><div></div></div></center>';
-    getMC.open("GET", "https://api.mcsrvstat.us/2/mcs2.zo3.red", true);
+    getMC.open("GET", "https://api.mcsrvstat.us/2/de3.halexnodes.xyz:25564", true);
     getMC.send();
 }
 function getPlayerList(tmp){ //use the json requested to list all players
